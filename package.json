@@ -1,0 +1,32 @@
+{
+    "name": "guardianconnect-bridge",
+    "version": "0.0.1",
+    "description": "Fetches data from Medtronic's Carelink webservice and puts it in Nightscout.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Szymon Jaworski",
+    "license": "MIT",
+    "dependencies": {
+        "request": "^2.87.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/szymjaw/guardianconnect-bridge.git"
+    },
+    "engines": {
+        "node": "~0.10.0"
+    },
+    "keywords": [
+        "medtronic",
+        "guardian",
+        "gc",
+        "bridge",
+        "nightscout",
+        "cgm"
+    ],
+    "bugs": {
+        "url": "https://github.com/szymjaw/guardianconnect-bridge/issues"
+    }
+}
